@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!-- Jasmine stuff -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.3.0/jasmine.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/jasmine.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/jasmine-html.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.2.1/boot.js"></script> 
+
+    <!-- End of Jasmine stuff -->
+    
+    <!-- Chart.js stuff -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <!-- End of Chart.js stuff -->
+  </head>
+  <body>
+    <H2> This is the index file </H2>
+    <div class="chart-container" style="position: relative; height: 10vmin; width: 80vmin">
+    <canvas id="myChart"></canvas>
+   </div>
+    <script src="static/src/calculations.js"></script>
+    <script src="static/src/objects.js"></script>
+    <script src="static/spec/assetSpecs.js"></script>
+    <script src="static/spec/transactionSpecs.js"></script>
+    <script src="static/spec/tradingLegSpecs.js"></script>
+    <script src="static/spec/strategySpecs.js"></script>
+    <script src="static/src/chartingStuff.js"></script>
+  </body>
+</html>
