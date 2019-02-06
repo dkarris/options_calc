@@ -81,5 +81,7 @@
   })
   
 
-
+$.get("http://node24.codenvy.io:44126/api/options/deribit", function (response) {
+    console.log(response)
+})
 
